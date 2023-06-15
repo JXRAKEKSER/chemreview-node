@@ -1,0 +1,37 @@
+{
+	"name": "chemreview-node",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"server": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JXRAKEKSER/chemreview-node.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JXRAKEKSER/chemreview-node/issues"
+	},
+	"homepage": "https://github.com/JXRAKEKSER/chemreview-node#readme",
+	"dependencies": {
+		"axios": "^1.4.0",
+		"bcrypt": "^5.1.0",
+		"celebrate": "^15.0.1",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"form-data": "^4.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.2.7",
+		"multer": "^1.4.5-lts.1",
+		"validator": "^13.7.0"
+	},
+	"devDependencies": {
+		"concurrently": "^7.0.0",
+		"nodemon": "^2.0.15"
+	}
+}
